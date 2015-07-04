@@ -11,13 +11,28 @@ seperate files we plan to commit from the files that dont intend to commit
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can only the changes that u need for a logical change to the staging area 
+and then commit them all to the repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches help split the projects into different streams based on features u are creating. Its used when u are creating an experimental feature or very big feature that might be dangerous or add on the master branch.
+This will keep the master branch unpolluted.
+
 How do the diagrams help you visualize the branch structure?
+
+Its helps to visualize what is the branch structure, what code is reachable and might we need to do if plan to merge two branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+By merging two branches together we can get all the commits from both branches into one, so if a branch1 as feature1 branch2 has feature2 and we merge branch2 into branch1. branch1 will have both feature1 one and feature2. 
+We represent this in a graph to get an idea what commits took place in what branches
+and how these commits were merged.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+when automatic merging git does the merging for you, but u lose control over it.
+As oppose merging branches manually always developers lot of control but its a lot of work to merge things manually all the time.
