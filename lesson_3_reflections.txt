@@ -7,3 +7,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Git automatically pulling may interfere with the work that your are doing. for instance if you working on file1 and some one else checked in a change for file1
 you dont what to get this file right away because it might ruine your work. So you should always manully from your repository and then merge the changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks: this is github specific, and its used for when u want to clone someones elses repository into your github account
+clones: this is a git command when you want to copy for repository one location to another (it does not have to be a remote repository)
+branches: Branch is used when u want to work one something else without effect the master branch.
